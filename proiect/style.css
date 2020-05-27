@@ -1,0 +1,145 @@
+body{
+    background-color: #eeeeee;
+}
+
+.grid{
+    width: 600px;
+    height: 590px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1{
+    font-family: sans-serif;
+    background-color: #57636e;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 0px;
+    border-radius: 50px;
+
+}
+.grid #question{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress{
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor:pointer;
+    background-color: #57636e;
+}
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+    outline: 0;
+}
+
+.add_buttons{
+    background-color: #778897;
+    width: 174px;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 9px 9px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.add_buttons:hover, .logout_button:hover{
+    cursor:pointer;
+    background-color: #57636e;
+}
+.add_buttons:focus, .logout_button:focus{
+    outline: 0;
+}
+
+.logout_button{
+    background-color: #778897;
+    width: 95px;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 9px;
+    margin: 10px 40px 10px 0px;
+    padding: 4px 9px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.username{
+    border-radius: 9px;
+    width: 83px;
+    padding: 4px 13px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    height: 20px;
+    box-shadow: 5px 6px 6px #cbcbcb;
+    margin: 0px 15px;
+}
+.username_div{
+    margin: 0 25%;
+}
+.container_login label{
+    width: 25%;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container_login input{
+    border-radius: 9px;
+    width: 45%;
+    padding: 4px 13px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    height: 20px;
+    box-shadow: 5px 6px 6px #cbcbcb;
+    margin: 0px 15px;
+}
+
+.container_question label{
+    width: 25%;
+    display: block;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container_question input{
+    border-radius: 9px;
+    width: 100%;
+    padding: 2px 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 20px;
+    box-shadow: 5px 6px 6px #cbcbcb;
+}
+.variants input{
+    margin: 10px auto;
+    width: 23%;
+}
+.result{
+    margin: 15px 15px;
+}
